@@ -64,7 +64,7 @@
    Execute the test suite without applying obfuscation to gather baseline performance metrics.
 
    ```bash
-   java -jar JVMBenchmark.jar --mode baseline
+   java -jar JVMBenchmark.jar
    ```
 
 2. **Apply Obfuscation:**
@@ -76,7 +76,7 @@
    Execute the test suite on the obfuscated code to measure performance changes.
 
    ```bash
-   java -jar JVMBenchmark.jar --mode obfuscated
+   java -jar JVMBenchmark.jar
    ```
 
 4. **Compare Results:**
